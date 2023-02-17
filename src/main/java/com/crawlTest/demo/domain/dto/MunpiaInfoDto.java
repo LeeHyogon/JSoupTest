@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class BookInfoDto {
+public class MunpiaInfoDto {
 
     private String title;
     private String tags;
@@ -18,7 +18,7 @@ public class BookInfoDto {
     private String plot;
 
     @Builder
-    public BookInfoDto(String title,String tags,String author,String plot){
+    public MunpiaInfoDto(String title, String tags, String author, String plot){
         this.title=title;
         this.tags=tags;
         this.author=author;
